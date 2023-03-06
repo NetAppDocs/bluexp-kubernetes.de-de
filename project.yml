@@ -45,7 +45,7 @@ sidebar:
     - title: Fügen Sie Cluster bei Google Cloud hinzu
       flavor: gcp
       url: "/task/task-kubernetes-discover-gke.html"
-    - title: Fügen Sie Cluster auf OpenShift hinzu
+    - title: Importieren Sie OpenShift-Cluster
       url: "/task/task-kubernetes-discover-openshift.html"
   - title: Managen Sie Kubernetes-Cluster
     url: "/concept-manage-k8s.html"

@@ -24,7 +24,7 @@ Es wird ein vollständig gemanagter oder selbst gemanagter Kubernetes Cluster er
 
 .Schritte
 . Klicken Sie auf der *Arbeitsfläche* auf *Arbeitsumgebung hinzufügen*.
-. Wählen Sie *Google Cloud Platform* > *Kubernetes Cluster* und klicken Sie auf *Weiter*.
+. Wählen Sie *Google Cloud Platform* > *Kubernetes Cluster* > *Discover*.
 +
 image:screenshot-discover-kubernetes-gke.png["Ein Screenshot der Seite „Arbeitsumgebung hinzufügen“ mit der Auswahl von Google Cloud Platform und Kubernetes Cluster."]
 
@@ -58,7 +58,7 @@ Für den in der Clusterrolle YAML-Datei angegebenen Benutzer benötigen Sie Zert
 
 .Schritte
 . Klicken Sie auf der *Arbeitsfläche* auf *Arbeitsumgebung hinzufügen*.
-. Wählen Sie *Google Cloud Platform* > *Kubernetes Cluster* und klicken Sie auf *Weiter*.
+. Wählen Sie *Google Cloud Platform* > *Kubernetes Cluster* > *Discover*.
 . Wählen Sie *Cluster importieren* und klicken Sie auf *Weiter*.
 . Laden Sie eine Kubernetes-Konfigurationsdatei im YAML-Format hoch.
 +

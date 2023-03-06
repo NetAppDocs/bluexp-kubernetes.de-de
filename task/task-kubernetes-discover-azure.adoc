@@ -24,7 +24,7 @@ Es wird ein vollständig gemanagter oder selbst gemanagter Kubernetes Cluster er
 
 .Schritte
 . Klicken Sie auf der *Arbeitsfläche* auf *Arbeitsumgebung hinzufügen*.
-. Wählen Sie *Microsoft Azure* > *Kubernetes Cluster* und klicken Sie auf *Weiter*.
+. Wählen Sie *Microsoft Azure* > *Kubernetes Cluster* > *Discover*.
 +
 image:screenshot-discover-kubernetes-aks.png["Ein Screenshot der Seite Add Working Environment, auf der Microsoft Azure und Kubernetes Cluster ausgewählt sind."]
 
@@ -54,7 +54,7 @@ Für den in der Clusterrolle YAML-Datei angegebenen Benutzer benötigen Sie Zert
 
 .Schritte
 . Klicken Sie auf der *Arbeitsfläche* auf *Arbeitsumgebung hinzufügen*.
-. Wählen Sie *Microsoft Azure* > *Kubernetes Cluster* und klicken Sie auf *Weiter*.
+. Wählen Sie *Microsoft Azure* > *Kubernetes Cluster* > *Discover*.
 . Wählen Sie *Cluster importieren* und klicken Sie auf *Weiter*.
 . Laden Sie eine Kubernetes-Konfigurationsdatei im YAML-Format hoch.
 +

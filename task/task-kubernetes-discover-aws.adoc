@@ -24,12 +24,12 @@ Es wird ein vollständig gemanagter oder selbst gemanagter Kubernetes Cluster er
 
 .Schritte
 . Klicken Sie auf der *Arbeitsfläche* auf *Arbeitsumgebung hinzufügen*.
-. Wählen Sie *Amazon Web Services* > *Kubernetes Cluster* und klicken Sie auf *Weiter*.
+. Wählen Sie *Amazon Web Services* > *Kubernetes Cluster* > *Discover*.
 +
 image:screenshot-discover-kubernetes-aws-1.png["Ein Screenshot der Seite „Kubernetes Cluster erkennen“ mit einer ausgewählten AWS Region und einem Kubernetes-Cluster"]
 
 . Wählen Sie *Discover Cluster* und klicken Sie auf *Next*.
-. Wählen Sie eine AWS-Region aus, wählen Sie einen Kubernetes-Cluster aus und klicken Sie dann auf *Weiter*.
+. Wählen Sie eine AWS-Region aus, wählen Sie einen Kubernetes-Cluster aus und klicken Sie auf *Weiter*.
 +
 image:screenshot-discover-kubernetes-aws-2.png["Ein Screenshot der Seite „Kubernetes Cluster erkennen“ mit einer ausgewählten AWS Region und einem Kubernetes-Cluster"]
 
@@ -48,7 +48,7 @@ Es ist möglich, ein selbst verwaltetes Kubernetes-Cluster mithilfe einer Kubern
 
 .Schritte
 . Klicken Sie auf der *Arbeitsfläche* auf *Arbeitsumgebung hinzufügen*.
-. Wählen Sie *Amazon Web Services* > *Kubernetes Cluster* und klicken Sie auf *Weiter*.
+. Wählen Sie *Amazon Web Services* > *Kubernetes Cluster* > *Discover*.
 . Wählen Sie *Cluster importieren* und klicken Sie auf *Weiter*.
 . Laden Sie eine Kubernetes-Konfigurationsdatei im YAML-Format hoch.
 +

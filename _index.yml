@@ -29,7 +29,7 @@ indexpage:
       url: "/task/task-kubernetes-discover-azure.html"
     - title: Fügen Sie Cluster bei Google Cloud hinzu
       url: "/task/task-kubernetes-discover-gke.html"
-    - title: Fügen Sie Cluster auf OpenShift hinzu
+    - title: Importieren Sie OpenShift-Cluster
       url: "/task/task-kubernetes-discover-openshift.html"
   - title: Managen Sie Kubernetes-Cluster
     links:
