@@ -20,12 +20,14 @@ Astra Trident ist ein vollständig von NetApp unterstütztes Open-Source-Projekt
 
 == Funktionen
 
-Mit einer kompatiblen Version von Astra Trident, die über den Trident Operator implementiert wurde, können Sie Ihre Kubernetes-Cluster direkt über managen link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["BlueXP"^] (Ehemals Cloud Manager)
+Mit einem link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["BlueXP"^] (Ehemals Cloud Manager) und eine kompatible Version von Astra Trident, die über den Trident Operator implementiert wird, bieten folgende Vorteile:
 
-* Installation oder Upgrade von Astra Trident:
-* Hinzufügen und Managen von Clustern in Ihrer Hybrid-Cloud-Infrastruktur
-* Hinzufügen und Verwalten von Speicherklassen und Verbinden dieser mit Arbeitsumgebungen.
-* Backup persistenter Volumes mit Cloud Backup Service –
+* Kubernetes-Cluster hinzufügen und managen
+* link:./task/task-k8s-manage-trident.html["Installation, Upgrade oder Deinstallation von Astra Trident"]
+* link:./task/task-k8s-manage-storage-classes.html["Speicherklassen hinzufügen und entfernen"]
+* link:./task/task-k8s-manage-persistent-volumes.html["Anzeige persistenter Volumes"]
+* link:./task/task-k8s-manage-remove-cluster.html["Kubernetes-Cluster entfernen"] Aus dem Arbeitsbereich
+* link:./task/task-kubernetes-enable-services.html["Aktivieren oder Anzeigen von Cloud Backup"]
 
 
 
@@ -44,6 +46,9 @@ BlueXP unterstützt Managed-Kubernetes-Cluster in folgenden Bereichen:
 == Unterstützte Astra Trident Implementierungen
 
 Eine der vier aktuellsten Versionen von Astra Trident link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["Implementierung über den Trident-Operator"^] Ist erforderlich.
+
+
+NOTE: Astra Trident ist implementiert mit `tridentctl` Wird nicht unterstützt. Bei der Implementierung von Astra Trident mit `tridentctl`, Sie können BlueXP nicht für das Management Ihrer Kubernetes-Cluster verwenden. Unbedingt  Und Neuinstallation link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["Verwenden des Betreibers von Trident"^] Oder link:./tasks/task-k8s-manage-trident.html["Verwendung von BlueXP"].
 
 Sie können die aktuelle Version von Astra Trident direkt von BlueXP installieren oder upgraden.
 

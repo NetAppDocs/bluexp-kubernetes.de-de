@@ -48,9 +48,8 @@ sidebar:
     - title: Importieren Sie OpenShift-Cluster
       url: "/task/task-kubernetes-discover-openshift.html"
   - title: Managen Sie Kubernetes-Cluster
-    url: "/concept-manage-k8s.html"
     entries:
-    - title: Installation oder Upgrade von Astra Trident
+    - title: Managen Sie Astra Trident
       url: "/task/task-k8s-manage-trident.html"
     - title: Management von Storage-Klassen
       url: "/task/task-k8s-manage-storage-classes.html"

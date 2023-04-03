@@ -67,6 +67,10 @@ Wenn Sie weitere Informationen zu diesen Prioritäten wünschen, bewegen Sie den
 
 *** *Problembeschreibung*: Geben Sie eine detaillierte Beschreibung Ihres Problems an, einschließlich aller anwendbaren Fehlermeldungen oder Fehlerbehebungsschritte, die Sie durchgeführt haben.
 *** *Zusätzliche E-Mail-Adressen*: Geben Sie zusätzliche E-Mail-Adressen ein, wenn Sie jemand anderes auf dieses Problem aufmerksam machen möchten.
+*** *Anhang (optional)*: Laden Sie bis zu fünf Anhänge nacheinander hoch.
++
+Anhänge sind auf 25 MB pro Datei begrenzt. Folgende Dateierweiterungen werden unterstützt: Txt, log, pdf, jpg/jpeg, rtf, doc/docx, xls/xlsx und csv.
+
 
 
 
@@ -93,61 +97,64 @@ Dieser Fehler könnte bedeuten, dass das NSS-Konto und das Unternehmen des Daten
 
 
 
-== 898e35e1a4bf4b025c3edec879439b08
+== Managen Ihrer Support-Cases (Vorschau)
 
-8b74b053fbeeff5c3b6f4991cb1d028d
+Sie können aktive und gelöste Support-Cases direkt über BlueXP anzeigen und managen. Sie können die mit Ihrem NSS-Konto und Ihrem Unternehmen verbundenen Fälle verwalten.
 
-394ef093ad3259b9ff0fe7406f015b83
+Case Management ist als Vorschau verfügbar. Wir planen, diese Erfahrungen weiter zu verbessern und in zukünftigen Versionen Verbesserungen hinzuzufügen. Bitte senden Sie uns Ihr Feedback über den Product-Chat.
 
 Beachten Sie Folgendes:
 
-* 5e4e7672ec2ba2b8a763da7f6714e212
+* Das Case-Management-Dashboard oben auf der Seite bietet zwei Ansichten:
 +
-** 01c3ffea552d74a5ae390b10e71a1f26
-** e3b6c09a5686233f72ce1ea60a1eb088
+** Die Ansicht auf der linken Seite zeigt die Gesamtzahl der Fälle, die in den letzten 3 Monaten durch das von Ihnen angegebene NSS-Benutzerkonto eröffnet wurden.
+** Die Ansicht auf der rechten Seite zeigt die Gesamtzahl der in den letzten 3 Monaten auf Unternehmensebene eröffneten Fälle basierend auf Ihrem NSS-Benutzerkonto an.
 
 
 +
-b19b168cc8a2b8c984465e140256b3a2
+Die Ergebnisse in der Tabelle geben die Fälle in Bezug auf die ausgewählte Ansicht wieder.
 
-* 56dcadeee6b0e5c47a52673f9b5a0bb3
+* Sie können interessante Spalten hinzufügen oder entfernen und den Inhalt von Spalten wie Priorität und Status filtern. Andere Spalten bieten nur Sortierfunktionen.
 +
-6f936762e1223311f031685422fcd3a4
+Weitere Informationen erhalten Sie in den Schritten unten.
 
-* b14929795a61440e9b4ec9f8a4885ae3
+* Auf Fallebene bieten wir die Möglichkeit, Fallnotizen zu aktualisieren oder einen Fall zu schließen, der sich noch nicht im Status „Geschlossen“ oder „Geschlossen“ befindet.
 
 
 .Schritte
 . Klicken Sie in BlueXP auf *Hilfe > Support*.
-. 34b1296d31cefa72dae9b3a364b1f444
+. Klicken Sie auf *Case Management* und fügen Sie bei Aufforderung Ihr NSS-Konto zu BlueXP hinzu.
 +
-d8ce1865cf1fe3cffd60300b4b86ad63
+Auf der Seite *Case Management* werden offene Fälle im Zusammenhang mit dem NSS-Konto angezeigt, das mit Ihrem BlueXP Benutzerkonto verknüpft ist. Dies ist das gleiche NSS-Konto, das oben auf der Seite *NSS Management* angezeigt wird.
 
-. 2ae5ae78bdb2d222f15fd8e89248709c
+. Ändern Sie optional die in der Tabelle angezeigten Informationen:
 +
-** 27635a52fe4c34c39ffc6430f4244ec6
-** 059e856250b59be3069246887b74a23c
+** Klicken Sie unter *Organizations-Fälle* auf *Ansicht*, um alle mit Ihrem Unternehmen verbundenen Fälle anzuzeigen.
+** Ändern Sie den Datumsbereich, indem Sie einen genauen Datumsbereich oder einen anderen Zeitrahmen auswählen.
 +
-7fcba8aeefa9960d3fc3fa08b360ba2e
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-case-management-date-range.png["Ein Screenshot der Option über der Tabelle auf der Seite Case Management, mit der Sie einen genauen Datumsbereich oder die letzten 7 Tage, 30 Tage oder 3 Monate auswählen können."]
 
-** a1bb576be9e5a356290f231efb51b3f5
+** Filtern Sie den Inhalt der Spalten.
 +
-37709be3a43df07d5975287545d0ba12
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-case-management-filter.png["Ein Screenshot der Filteroption in der Spalte Status, in dem Sie Fälle filtern können, die einem bestimmten Status entsprechen, z. B. aktiv oder Geschlossen."]
 
-** 1614dc8e47c0492434152c990d6c1040
+** Ändern Sie die Spalten, die in der Tabelle angezeigt werden, indem Sie auf klicken image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/icon-table-columns.png["Das Plus-Symbol, das in der Tabelle angezeigt wird"] Und wählen Sie dann die Spalten, die Sie anzeigen möchten.
 +
-5de408d7cbad49634fb25f9047498132
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-case-management-columns.png["Ein Screenshot mit den Spalten, die Sie in der Tabelle anzeigen können."]
 
 
 
-. 98efef1c8a47ed5791b41944e8ff4ec2
+. Managen Sie einen bestehenden Fall, indem Sie auf klicken image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/icon-table-action.png["Ein Symbol mit drei Punkten, das in der letzten Spalte der Tabelle angezeigt wird"] Und eine der verfügbaren Optionen auswählen:
 +
-** 6d9dd74e7709ef802d299966f7898f6b
-** 482429810c2b00a4fa04f9900c560232
-** f791bc685c526af8296381acff10f6a0
+** *Fall anzeigen*: Vollständige Details zu einem bestimmten Fall anzeigen.
+** *Aktennotizen aktualisieren*: Geben Sie zusätzliche Details zu Ihrem Problem an oder wählen Sie *Dateien hochladen*, um maximal fünf Dateien anzuhängen.
++
+Anhänge sind auf 25 MB pro Datei begrenzt. Folgende Dateierweiterungen werden unterstützt: Txt, log, pdf, jpg/jpeg, rtf, doc/docx, xls/xlsx und csv.
+
+** *Fall schließen*: Geben Sie Details darüber an, warum Sie den Fall schließen und klicken Sie auf *Fall schließen*.
 
 
 +
-e9a5c374fb47ed2ae5cc6108fb36d829
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-case-management-actions.png["Ein Screenshot, der die Aktionen zeigt, die Sie nach Auswahl des Menüs in der letzten Spalte der Tabelle durchführen können."]
 
 
