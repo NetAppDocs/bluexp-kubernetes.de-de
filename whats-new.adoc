@@ -54,19 +54,13 @@ Selbst gemanagte OpenShift-Cluster können jetzt in Cloud Manager importiert wer
 
 * Verwenden der neuen `- watch` Verb in der Storage-Klasse sowie Backup- und Restore-Konfigurationen von YAML kann Cloud Manager jetzt Kubernetes-Cluster auf Änderungen am Cluster-Backend überwachen und das Backup für neue persistente Volumes automatisch aktivieren, wenn auf dem Cluster ein automatisches Backup konfiguriert wurde.
 +
-ifdef::aws[]
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aws.html["Anforderungen an Kubernetes-Cluster in AWS"]
 
++
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html["Anforderungen an Kubernetes Cluster in Azure"]
 
-
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aws.html["Anforderungen an Kubernetes-Cluster in AWS"]Endif::aws[]
-
-+ ifdef::azurblau[]
-
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html["Anforderungen an Kubernetes Cluster in Azure"]Endif::azurblau[]
-
-+ ifdef::gcp[]
-
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["Anforderungen für Kubernetes-Cluster in Google Cloud"]Endif::gcp[]
++
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["Anforderungen für Kubernetes-Cluster in Google Cloud"]
 
 * Wenn link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html#add-storage-classes["Definieren von Speicherklassen"], Sie können jetzt einen Dateisystemtyp (fstype) für Block Storage angeben.
 
