@@ -194,7 +194,6 @@
   <block id="05a0030833e70e4af624c3716f988104" category="list-text">Erstellen Sie eine YAML-Datei, die den folgenden Text enthält, der auf Ihren Autorisierungsanforderungen basiert. Ersetzen Sie den <block ref="860b2d1ba3877711b8cf22d81c10ee15" prefix="" category="inline-code"></block> Variable mit Ihrem Benutzernamen und <block ref="ee324b4038870a1a0a7d516e6c4c421d" prefix="" category="inline-code"></block> Entweder mit der Objekt-ID für die vom System zugewiesene verwaltete Identität oder mit dem Benutzernamen eines autorisierten Benutzers, wie oben beschrieben.</block>
   <block id="dfbe168da8f2c622999763a901cfb01f" category="summary">Mit BlueXP können Sie Astra Trident installieren, Storage-Klassen konfigurieren, Cluster entfernen und Datenservices aktivieren.</block>
   <block id="384b71db954a7a463c759208283e47c4" category="doc">Managen Sie Kubernetes-Cluster</block>
-  <block id="85f3c28401138a5e7e67a35f6a6235fb" category="paragraph">Mit BlueXP können Sie Astra Trident installieren oder aktualisieren, Storage-Klassen konfigurieren, Cluster entfernen und Datenservices aktivieren.</block>
   <block id="a13d7ae6b7b86fa9e684a460792c33c3" category="inline-link-macro">Deinstallieren Sie mithilfe von&lt;Block ref=„c67fd1b99934afa248dfeb285a9a4191“ PREFIX=“ „ category='Inline-Code'/&gt;</block>
   <block id="b6f2a65b5d8cda52b65468f1121cccbe" category="inline-link-macro">Verwenden des Betreibers von Trident</block>
   <block id="b057ae1ed0b2c48dbe6fd1b1b2ea1a30" category="inline-link-macro">Verwendung von BlueXP</block>
@@ -709,4 +708,5 @@
   <block id="5a81378cdc7edd9ea960cf02d6ca78d2" category="paragraph">ifdef::aws[]</block>
   <block id="b010c7530103ef9947582474d65ff9a3" category="paragraph">ifdef::azure[]</block>
   <block id="6e1e9c83b80f4d22d34cbdf60a71383b" category="paragraph">ifdef::gcp[]</block>
+  <block id="8bdda2d9f896ca0243f1004a375b90ba" category="paragraph">[].Lead] Sie können BlueXP verwenden, um Astra Trident zu installieren oder zu aktualisieren, Storage-Klassen zu konfigurieren, Cluster zu entfernen und Datenservices zu aktivieren.</block>
 </blocks>

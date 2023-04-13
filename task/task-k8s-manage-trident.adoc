@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: /task/task-k8s-manage-trident.html 
+permalink: task/task-k8s-manage-trident.html 
 keywords: kubernetes, k8s, install astra trident, kubernetes support 
 summary: Nachdem Sie einen Managed-Kubernetes-Cluster zu Canvas hinzugefügt haben, können Sie mit BlueXP eine kompatible Astra Trident Installation bestätigen oder Astra Trident installieren. Eine der vier aktuellsten Versionen von Astra Trident ist erforderlich. 
 ---

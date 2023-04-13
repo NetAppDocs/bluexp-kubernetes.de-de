@@ -39,7 +39,7 @@ indexpage:
       url: "/task/task-kubernetes-discover-openshift.html"
   - title: Managen Sie Kubernetes-Cluster
     links:
-    - title: Installation Von Astra Trident
+    - title: Managen Sie Astra Trident
       url: "/task/task-k8s-manage-trident.html"
     - title: Management von Storage-Klassen
       url: "/task/task-k8s-manage-storage-classes.html"

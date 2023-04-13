@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: /requirements/kubernetes-reqs-gke.html 
+permalink: requirements/kubernetes-reqs-gke.html 
 keywords: kubernetes, k8s, discover kubernetes cluster, discover k8s, google, google cloud, gke, kubernetes support 
 summary: 'Verwaltete Google Kubernetes Engine-Cluster (GKE) und automatisierte Kubernetes-Cluster können in Google mithilfe von BlueXP hinzugefügt und gemanagt werden. Bevor Sie die Cluster zu BlueXP hinzufügen können, stellen Sie sicher, dass die folgenden Anforderungen erfüllt sind.' 
 ---

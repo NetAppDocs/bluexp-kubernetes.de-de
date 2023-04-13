@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: /task/task-kubernetes-discover-openshift.html 
+permalink: task/task-kubernetes-discover-openshift.html 
 keywords: kubernetes, k8s, discover kubernetes cluster, discover k8s, openshift, kubernetes support, import kubernetes cluster, import 
 summary: Importieren Sie einen selbst gemanagten OpenShift-Cluster in BlueXP, damit Sie das Backup persistenter Volumes bei Ihrem Cloud-Provider starten können. 
 ---
