@@ -16,8 +16,8 @@ summary: Nachdem Sie ein Managed-Kubernetes-Cluster in den Canvas hinzugefügt h
 [role="lead"]
 Nachdem Sie ein gemanagtes Kubernetes-Cluster zu Canvas hinzugefügt haben, können Sie NetApp Cloud-Datenservices für erweitertes Datenmanagement nutzen.
 
-Cloud Backup ermöglicht das Backup persistenter Volumes auf Objekt-Storage.
+Mit BlueXP Backup und Recovery können Sie persistente Volumes in Objektspeicher sichern.
 
-link:https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-kubernetes-backup-to-cloud.html["So schützen Sie Ihre Kubernetes-Cluster-Daten mit Cloud Backup"^].
+link:https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-kubernetes-backup-to-cloud.html["Erfahren Sie, wie Sie Ihre Kubernetes-Cluster-Daten mit BlueXP Backup und Recovery schützen"^].
 
-image:screenshot-k8s-backup.png["Ein Screenshot der Kubernetes-Seite in der Cloud Backup Service zeigt fünf Backup-Jobs für ein Kubernetes-Cluster."]
+image:screenshot-k8s-backup.png["Ein Screenshot der Kubernetes-Seite in BlueXP Backup und Recovery zeigt fünf Backup-Jobs für ein Kubernetes-Cluster."]

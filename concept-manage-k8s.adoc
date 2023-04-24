@@ -33,5 +33,5 @@ Auf der Ressourcen-Seite können Sie:
 * Speicherklassen hinzufügen und entfernen. Siehe link:./task/task-k8s-manage-storage-classes.html["Management von Storage-Klassen"].
 * Anzeige persistenter Volumes Siehe link:./task/task-k8s-manage-persistent-volumes.html["Anzeige persistenter Volumes"].
 * Entfernen Sie Kubernetes Cluster aus dem Workspace. Siehe link:./task/task-k8s-manage-remove-cluster.html["Cluster entfernen"].
-* Cloud Backup aktivieren oder anzeigen Siehe link:./task/task-kubernetes-enable-services.html["Nutzen Sie NetApp Cloud-Datenservices"].
+* BlueXP Backup und Recovery aktivieren oder anzeigen Siehe link:./task/task-kubernetes-enable-services.html["Nutzen Sie NetApp Cloud-Datenservices"].
 
