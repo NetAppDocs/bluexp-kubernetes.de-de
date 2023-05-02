@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept-manage-k8s.html 
-keywords: overview, manage, k8s, kubernetes 
+keywords: overview, manage, k8s, kubernetes, tridentctl, trident operator, operator 
 summary: Mit BlueXP können Sie Astra Trident installieren, Storage-Klassen konfigurieren, Cluster entfernen und Datenservices aktivieren. 
 ---
 = Managen Sie Kubernetes-Cluster
@@ -13,10 +13,8 @@ summary: Mit BlueXP können Sie Astra Trident installieren, Storage-Klassen konf
 :imagesdir: ./media/
 
 
-[].Lead] Sie können BlueXP verwenden, um Astra Trident zu installieren oder zu aktualisieren, Storage-Klassen zu konfigurieren, Cluster zu entfernen und Datenservices zu aktivieren.
-
-
-NOTE: Astra Trident ist implementiert mit `tridentctl` Wird nicht unterstützt. Bei der Implementierung von Astra Trident mit `tridentctl`, Sie können BlueXP nicht für das Management Ihrer Kubernetes-Cluster verwenden. Unbedingt  Und Neuinstallation link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["Verwenden des Betreibers von Trident"^] Oder link:./task/task-k8s-manage-trident.html["Verwendung von BlueXP"].
+[role="lead"]
+Mit BlueXP können Sie Astra Trident installieren oder aktualisieren, Storage-Klassen konfigurieren, Cluster entfernen und Datenservices aktivieren.
 
 
 
@@ -35,3 +33,9 @@ Auf der Ressourcen-Seite können Sie:
 * Entfernen Sie Kubernetes Cluster aus dem Workspace. Siehe link:./task/task-k8s-manage-remove-cluster.html["Cluster entfernen"].
 * BlueXP Backup und Recovery aktivieren oder anzeigen Siehe link:./task/task-kubernetes-enable-services.html["Nutzen Sie NetApp Cloud-Datenservices"].
 
+
+
+
+== Bekannte Beschränkung
+
+Astra Trident ist implementiert mit `tridentctl` Wird nicht unterstützt. Bei der Implementierung von Astra Trident mit `tridentctl`, Sie können BlueXP nicht für das Management Ihrer Kubernetes-Cluster verwenden. Unbedingt  Und Neuinstallation link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["Verwenden des Betreibers von Trident"^] Oder link:./task/task-k8s-manage-trident.html["Verwendung von BlueXP"].
