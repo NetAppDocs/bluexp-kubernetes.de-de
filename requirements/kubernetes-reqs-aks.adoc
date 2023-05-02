@@ -279,15 +279,6 @@ roleRef:
     apiGroup: rbac.authorization.k8s.io
 ----
 --
-.Installation Von Trident
---
-Über die Befehlszeile erhalten Sie die vollständige Autorisierung, und BlueXP kann Astra Trident installieren.
-
-[source, cli]
-----
-kubectl create clusterrolebinding test --clusterrole cluster-admin --user <Object (principal) ID>
-----
---
 ====
 . Wenden Sie die Konfiguration auf ein Cluster an.
 +

@@ -20,7 +20,15 @@ Astra Trident ist ein vollständig von NetApp unterstütztes Open-Source-Projekt
 
 == Funktionen
 
-Mit einem link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["BlueXP"^] (Cloud Manager) und eine kompatible Version von Astra Trident, die mit dem Trident Operator bereitgestellt wird, können Sie: * Kubernetes-Cluster hinzufügen und managen * link:./task/task-k8s-manage-trident.html["Installation, Upgrade oder Deinstallation von Astra Trident"]* link:./task/task-k8s-manage-storage-classes.html["Speicherklassen hinzufügen und entfernen"]* link:./task/task-k8s-manage-persistent-volumes.html["Anzeige persistenter Volumes"]* link:./task/task-k8s-manage-remove-cluster.html["Kubernetes-Cluster entfernen"] Aus dem Arbeitsbereich * link:./task/task-kubernetes-enable-services.html["BlueXP Backup und Recovery aktivieren oder anzeigen"]
+Mit einem link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["BlueXP"^] (Cloud Manager) und eine kompatible Version von Astra Trident, die über den Trident Operator bereitgestellt wird, bieten folgende Vorteile:
+
+* Kubernetes-Cluster hinzufügen und managen
+* link:./task/task-k8s-manage-trident.html["Installation, Upgrade oder Deinstallation von Astra Trident"]
+* link:./task/task-k8s-manage-storage-classes.html["Speicherklassen hinzufügen und entfernen"]
+* link:./task/task-k8s-manage-persistent-volumes.html["Anzeige persistenter Volumes"]
+* link:./task/task-k8s-manage-remove-cluster.html["Kubernetes-Cluster entfernen"] Aus dem Arbeitsbereich
+* link:./task/task-kubernetes-enable-services.html["BlueXP Backup und Recovery aktivieren oder anzeigen"]
+
 
 
 
