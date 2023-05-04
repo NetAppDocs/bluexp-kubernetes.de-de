@@ -103,7 +103,6 @@
   <block id="4bf9575451981aabdb909c6a57da72cf" category="inline-image-macro">Screenshot mit den Details des Service-Kontos in der Cloud-Konsole</block>
   <block id="ae62d39210641a9fb9c2dd38c13a2b07" category="paragraph"><block ref="ae62d39210641a9fb9c2dd38c13a2b07" category="inline-image-macro-rx" type="image"></block></block>
   <block id="33ebb2dacbde969dd24700b6e4dbe435" category="paragraph">Erstellen Sie eine Cluster-Rolle und Rollenbindung.</block>
-  <block id="a392c9c3d2df2d0a5afaed519cd01879" category="list-text">Erstellen Sie eine YAML-Datei, die den folgenden Text enthält, der auf Ihren Autorisierungsanforderungen basiert. Ersetzen Sie den <block ref="860b2d1ba3877711b8cf22d81c10ee15" prefix="" category="inline-code"></block> Variable mit Ihrem Benutzernamen und <block ref="ee324b4038870a1a0a7d516e6c4c421d" prefix="" category="inline-code"></block> Mit der eindeutigen ID für das autorisierte Servicekonto.</block>
   <block id="26b09dacbaf5084bbe92bfa4d75feba8" category="list-text">Wenden Sie die Konfiguration auf ein Cluster an.</block>
   <block id="a895f05376600e7bc32dbc4f67005168" category="summary">Bevor Sie BlueXP ein Amazon Elastic Kubernetes Service (Amazon EKS) Cluster hinzufügen können, müssen Sie sicherstellen, dass die folgenden Anforderungen erfüllt sind.</block>
   <block id="b65741d409db3b7986653580cc3988b8" category="doc">Anforderungen an Kubernetes-Cluster in AWS</block>
@@ -143,7 +142,6 @@
   <block id="f6671ef10e842ca53232fd0b982400b1" category="paragraph"><block ref="f6671ef10e842ca53232fd0b982400b1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3af3ead39a5eec5783d926f19a9b6bfe" category="paragraph">Sie müssen die Connector-Rolle auf jedem Kubernetes-Cluster autorisieren, damit der Connector einen Cluster ermitteln und verwalten kann.</block>
   <block id="d1c51ee4ad82e26c7069e126c0a5d25d" category="paragraph">Es ist eine andere Autorisierung erforderlich, um andere Funktionen zu aktivieren.</block>
-  <block id="12fb6938fb90a471014c2abce44ca15b" category="list-text">Erstellen Sie eine YAML-Datei, die den folgenden Text enthält, der auf Ihren Autorisierungsanforderungen basiert.</block>
   <block id="f08cfbb10dc9216a72c9d59da3c626b8" category="list-text">Erstellen Sie eine Identitätszuordnung zur Berechtigungsgruppe.</block>
   <block id="bcac99b7c9956d05f17a4e4f9649da71" category="open-title">Verwenden Sie eksctl</block>
   <block id="3fbd08713a848d604236ac7651dfbe62" category="paragraph">Verwenden Sie eksctl, um eine IAM-Identitätszuordnung zwischen einem Cluster und der IAM-Rolle für den BlueXP Connector zu erstellen.</block>
@@ -188,7 +186,6 @@
   <block id="787c8e09d4ba5342ce8f84b1af78b048" category="inline-image-macro">Ein Screenshot des vom System zugewiesenen Objekt-ID-Fensters im Azure-Managementportal</block>
   <block id="0c90ae4dc73f81dbbd0a6e0299f5deb5" category="paragraph"><block ref="0c90ae4dc73f81dbbd0a6e0299f5deb5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4ebffaff3187e96f25bb8b4b25978bda" category="list-text">Wenn Sie ein *selbst verwaltetes Kubernetes Cluster* bereitstellen, benötigen Sie den Benutzernamen eines autorisierten Benutzers.</block>
-  <block id="05a0030833e70e4af624c3716f988104" category="list-text">Erstellen Sie eine YAML-Datei, die den folgenden Text enthält, der auf Ihren Autorisierungsanforderungen basiert. Ersetzen Sie den <block ref="860b2d1ba3877711b8cf22d81c10ee15" prefix="" category="inline-code"></block> Variable mit Ihrem Benutzernamen und <block ref="ee324b4038870a1a0a7d516e6c4c421d" prefix="" category="inline-code"></block> Entweder mit der Objekt-ID für die vom System zugewiesene verwaltete Identität oder mit dem Benutzernamen eines autorisierten Benutzers, wie oben beschrieben.</block>
   <block id="dfbe168da8f2c622999763a901cfb01f" category="summary">Mit BlueXP können Sie Astra Trident installieren, Storage-Klassen konfigurieren, Cluster entfernen und Datenservices aktivieren.</block>
   <block id="384b71db954a7a463c759208283e47c4" category="doc">Managen Sie Kubernetes-Cluster</block>
   <block id="a13d7ae6b7b86fa9e684a460792c33c3" category="inline-link-macro">Deinstallieren Sie mithilfe von&lt;Block ref=„c67fd1b99934afa248dfeb285a9a4191“ PREFIX=“ „ category='Inline-Code'/&gt;</block>
@@ -695,4 +692,10 @@
   <block id="de6156e46a0797be4d22df59cc5bf2d9" category="list-text"><block ref="de6156e46a0797be4d22df59cc5bf2d9" category="inline-link-macro-rx"></block></block>
   <block id="85f3c28401138a5e7e67a35f6a6235fb" category="paragraph">Mit BlueXP können Sie Astra Trident installieren oder aktualisieren, Storage-Klassen konfigurieren, Cluster entfernen und Datenservices aktivieren.</block>
   <block id="51ce397d2f1bccd912fdb6f415de2940" category="section-title">Bekannte Beschränkung</block>
+  <block id="363b65cde3a58a4944b673e9d7fce91c" category="list-text">Sie können die Autorisierung an Ihre Anforderungen anpassen.</block>
+  <block id="134cda91d8ceed300f8bbdb1a6b354ed" category="paragraph">Ersetzen Sie den <block ref="860b2d1ba3877711b8cf22d81c10ee15" prefix="" category="inline-code"></block> Variable mit Ihrem Benutzernamen und <block ref="ee324b4038870a1a0a7d516e6c4c421d" prefix="" category="inline-code"></block> Entweder mit der Objekt-ID für die vom System zugewiesene verwaltete Identität oder mit dem Benutzernamen eines autorisierten Benutzers, wie oben beschrieben.</block>
+  <block id="a108a9c48040b2343bc708a6b5ed0d22" category="open-title">Installation von Trident</block>
+  <block id="52964b35567ba6adef127cdd68d2fa70" category="paragraph">Über die Befehlszeile erhalten Sie die vollständige Autorisierung, und BlueXP kann Astra Trident installieren.</block>
+  <block id="1fe5f07cd7f6b046882a66a9f9c308d2" category="paragraph">Gewähren Sie eine vollständige Administratorautorisierung und aktivieren Sie BlueXP die Installation von Astra Trident.</block>
+  <block id="7c0ad7b6a922ca797e316eb1ed6cdbeb" category="paragraph">Ersetzen Sie den <block ref="860b2d1ba3877711b8cf22d81c10ee15" prefix="" category="inline-code"></block> Variable mit Ihrem Benutzernamen und <block ref="ee324b4038870a1a0a7d516e6c4c421d" prefix="" category="inline-code"></block> Mit der eindeutigen ID für das autorisierte Servicekonto.</block>
 </blocks>
