@@ -18,6 +18,6 @@ Nachdem Sie ein gemanagtes Kubernetes-Cluster zu Canvas hinzugefügt haben, kön
 
 Mit BlueXP Backup und Recovery können Sie persistente Volumes in Objektspeicher sichern.
 
-link:https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-kubernetes-backup-to-cloud.html["Erfahren Sie, wie Sie Ihre Kubernetes-Cluster-Daten mit BlueXP Backup und Recovery schützen"^].
+link:https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-kubernetes-backup-to-cloud.html["Erfahren Sie, wie Sie Ihre Kubernetes-Cluster-Daten mit BlueXP Backup und Recovery schützen"^].
 
 image:screenshot-k8s-backup.png["Ein Screenshot der Kubernetes-Seite in BlueXP Backup und Recovery zeigt fünf Backup-Jobs für ein Kubernetes-Cluster."]

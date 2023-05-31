@@ -42,9 +42,9 @@ Für das Erkennen und Managen von Kubernetes-Clustern ist ein BlueXP Connector i
 
 Folgen Sie den Schritten in einem der nachfolgenden Links.
 
-* link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html#overview["Erstellen Sie einen Connector von BlueXP"^] (Empfohlen)
-* link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-launching-azure-mktp.html["Erstellen Sie einen Connector aus dem Azure Marketplace"^]
-* link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["Installieren Sie den Connector auf einem vorhandenen Linux-Host"^]
+* link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-creating-connectors-azure.html#overview["Erstellen Sie einen Connector von BlueXP"^] (Empfohlen)
+* link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-launching-azure-mktp.html["Erstellen Sie einen Connector aus dem Azure Marketplace"^]
+* link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-installing-linux.html["Installieren Sie den Connector auf einem vorhandenen Linux-Host"^]
 
 
 
