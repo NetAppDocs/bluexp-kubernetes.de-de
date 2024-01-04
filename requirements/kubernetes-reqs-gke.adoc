@@ -131,7 +131,7 @@ Erstellen Sie eine Cluster-Rolle und Rollenbindung.
 --
 Fügen Sie eine grundlegende Autorisierung hinzu, um Backup und Restore für Kubernetes-Cluster zu ermöglichen.
 
-Ersetzen Sie den ``subjects: kind:`` Variable mit Ihrem Benutzernamen und ``subjects: user:`` Mit der eindeutigen ID für das autorisierte Servicekonto.
+Ersetzen Sie den `subjects: kind:` Variable mit Ihrem Benutzernamen und `subjects: name:` Mit der eindeutigen ID für das autorisierte Servicekonto.
 
 [source, yaml]
 ----

@@ -140,7 +140,7 @@ Erstellen Sie eine Cluster-Rolle und Rollenbindung.
 --
 Fügen Sie eine grundlegende Autorisierung hinzu, um Backup und Restore für Kubernetes-Cluster zu ermöglichen.
 
-Ersetzen Sie den ``subjects: kind:`` Variable mit Ihrem Benutzernamen und ``subjects: user:`` Entweder mit der Objekt-ID für die vom System zugewiesene verwaltete Identität oder mit dem Benutzernamen eines autorisierten Benutzers, wie oben beschrieben.
+Ersetzen Sie den `subjects: kind:` Variable mit Ihrem Benutzernamen und `subjects: name:` Entweder mit der Objekt-ID für die vom System zugewiesene verwaltete Identität oder mit dem Benutzernamen eines autorisierten Benutzers, wie oben beschrieben.
 
 [source, yaml]
 ----
